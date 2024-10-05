@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Relight</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="js/video_comparison.js"></script>
+    
+</head>
+
+<body>
+    <div class="container" id="header" style="text-align: center; margin: auto;">
+        <div class="row" id="title-row" style="max-width: 100%; margin: 0 auto; display: inline-block">
+            <h2 class="col-md-12 text-center" id="title">
+                <b>Relight</b>: Research results comparison <br>
+            </h2>
+        </div>
+    </div>
+           <!-- Horizontal Navigation Bar -->
+    <nav style="text-align: center; margin: 20px 0;">
+        <ul style="list-style-type: none; padding: 0;">
+            <li style="display: inline; margin-right: 20px;">
+                <a href="index.html" class="nav-link">Part 0</a>
+            </li>
+            <li style="display: inline; margin-right: 20px;">
+                <a href="part1.html" class="nav-link active">Part 1</a>
+            </li>
+            <li style="display: inline; margin-right: 20px;">
+                <a href="part2.html" class="nav-link">Part 2</a>
+            </li>
+   
+        </ul>
+    </nav>
+
+    <!-- Video List Section -->
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <!-- Video 3 -->
+            <div class="video-compare-container" id="materialsDiv7">
+                
+                <video class="video" id="materials7" loop playsinline autoplay muted 
+                    src="video/GT_roughness_3___240_suzanne_random.mp4" onplay="resizeAndPlay(this)"></video>
+                <canvas height=0 class="videoMerge" id="materials7Merge"></canvas>
+                <h3 style="text-align: center;">GT_roughness_3___240_suzanne_random.mp4</h3>
+            </div>
+            <br>
+            <br>
+    
+            <!-- Video 3 -->
+            <div class="video-compare-container" id="materialsDiv3">
+                
+                <video class="video" id="materials3" loop playsinline autoplay muted 
+                    src="video/GT_roughness_2___suzanne_7k_z_axis.mp4" onplay="resizeAndPlay(this)"></video>
+                <canvas height=0 class="videoMerge" id="materials3Merge"></canvas>
+                <h3 style="text-align: center;">GT_roughness_2___suzanne_7k_z_axis.mp4</h3>
+            </div>
+            <br>
+            <br>
+            <!-- Video 3 -->
+            <div class="video-compare-container" id="materialsDiv4">
+                
+                <video class="video" id="materials4" loop playsinline autoplay muted 
+                    src="video/GT_roughness_2___suzanne_7k_y_axis.mp4" onplay="resizeAndPlay(this)"></video>
+                <canvas height=0 class="videoMerge" id="materials4Merge"></canvas>
+                <h3 style="text-align: center;">GT_roughness_2___suzanne_7k_y_axis.mp4</h3>
+            </div>
+            <br>
+            <br>
+            <!-- Video 3 -->
+            <div class="video-compare-container" id="materialsDiv5">
+                
+                <video class="video" id="materials5" loop playsinline autoplay muted 
+                    src="video/GT_roughness_2___suzanne_7k_x_axis.mp4" onplay="resizeAndPlay(this)"></video>
+                <canvas height=0 class="videoMerge" id="materials5Merge"></canvas>
+                <h3 style="text-align: center;">GT_roughness_2___suzanne_7k_x_axis.mp4</h3>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
